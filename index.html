@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Koné Djiguiba Gossan</h1>
+            <p>Développeur Web/community manager</p>
+    </header>
+    
+    <nav>
+        <button class="menu-toggle">☰</button>
+        <div class="menu">
+        <a href="#acceuil">Accueil</a> 
+        <a href="#apropos">A propos</a>
+        <a href="#Compétences">Compétences</a>
+        <a href="#Projets">Projets</a>
+        <a href="#contact">Contact</a>
+        </div>                
+     </nav>
+    <main>
+        <section id="apropos"><h2>A propos de moi</h2>
+             <p>Je suis Koné Djiguiba Gossan,           
+                développeur web et community manager.
+                Je m'interesse à la création de sites web, à la communication digitale et à la création de contenus pour les réseaux sociaux. </p>
+                <p>J'utilise notamment des outils comme CapCut et des outils d'intelligence artifficielle pour créer des affiches professionnelles et monter des vidéos adaptées aux besoins des marques et des entreprises.</p>
+                <p>Je possède également de bonnes bases en réseau informatique, notamment dans les domaines liés aux réseaux, à la connectivité et aux systèmes. </p>
+                <a href="#contact" class="btn-contact">Me contacter</a>
+        </section>
+        <section id="Compétences">
+    <h2>Mes Compétences</h2>
+
+    <div class="competences">
+
+        <article>
+            <h3>💻 Développement Web</h3>
+            <p>HTML, CSS et JavaScript.</p>
+        </article>
+
+        <article>
+            <h3>📱 Community Management</h3>
+            <p>Création de contenus et gestion des réseaux sociaux.</p>
+        </article>
+
+        <article>
+            <h3>🎬 Création vidéo</h3>
+            <p>Montage avec CapCut et utilisation d'outils IA.</p>
+        </article>
+
+        <article>
+            <h3>🌐 Réseaux informatiques</h3>
+            <p>Bonnes bases en réseaux et connectivité.</p>
+        </article>
+
+    </div>
+</section>
+        <section id="Projets">
+            <h2>Mes Projets</h2>
+            <article class="projets">
+                    <article class="projet-card">
+                   <img src="images/portfolio.jpg/Capture d’écran du 2026-10-08 15-52-45.png" alt="Apercu de mon portfolio">
+                    <div class="projet-contenu">
+                 <h3>porfolio personnel</h3>
+                  <p>Création d'un portfolio Web pour présenter mes connaissances, mes expériences et mes différents projets.</p> 
+                  <p class="technologies">
+                          HTML • CSS • JavaScript
+                  </p>
+                  <button class="btn-projet" data-projet="portfolio">Voir le projet
+
+                  </button>
+                </div>
+               
+            </article>
+                 <article class="projet-card">
+                     <div class="projet-contenu">
+                        <img src="images/CM.jpg/WhatsApp Image 2026-10-08 at 16.17.36.jpeg" alt="Réalisation en Community Management">
+                        <h3>Community Management</h3>
+                        <p>Création de contenus et gestion des réseaux pour améliorer la visibilité et l'engagement des communautés</p>
+                        <p class="technologies"> Réseaux sociaux • Création de contenus</p>
+                     <a href="projets/community-management.html" class="btn-projet">Voir le projet</a>
+                    </div>
+                
+                     </article>
+                       
+                        <article class="projet-card">
+                            <div class="projet-contenu">
+                            <img src="images/Réalisation-vidéo-ia.jpg/WhatsApp Image 2026-10-08 at 16.39.47.jpeg" alt="Réalisation vidéo et intelligence artifficielle">
+                        <h3>Création vidéo & IA</h3>
+                        <p>Création et montage de vidéos pour les réseaux sociaux
+                        avec CapCut et des outils d'intelligence artifficielle    
+                        </p>
+                        <p class="technologies"> Capcut • IA(Veo3) • Vidéo </p>
+                        <a href="projets/Creation-video.html" class="btn-projet">Voir le projet</a>
+                    </div>
+                
+                     </article>
+          </article>
+        </div>
+        </section>
+    </main>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formsubmit.co/didi.gossan2@gmail.com" method="post">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom">
+        <required>
+        <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse email">
+        </required>    
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="subject" placeholder="Sujet de votre message" required>
+            <label for="message">Votre Message</label>
+            <textarea id="message" name="message" placeholder="Ecrivez votre message ici..." required></textarea>
+            <button type="submit">Envoyer le message</button>
+        </form>    
+    </section>
+    <footer>
+        <p>&copy;2026 Koné Djiguiba Gossan - Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
